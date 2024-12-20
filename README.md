@@ -1,79 +1,59 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# NavigationApp con React Navigation 🚀
+### Este proyecto demuestra el uso de React Navigation en una aplicación de React Native para manejar múltiples tipos de navegación, como Stack, Drawer, Tabs, TopTabs, MaterialTabs, y más.
 
-# Getting Started
+![Captura de NavigationApp](https://github.com/user-attachments/assets/5f12ea86-477e-427b-83fa-6f2b97aaca6d "Interfaz de NavigationApp")
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
-## Step 1: Start the Metro Server
+## Funcionalidades principales 🌐
+- **Navegación Stack**: Navegación jerárquica para moverse entre pantallas.
+- **Drawer Navigation**: Menú lateral desplegable para acceso rápido.
+- **Bottom Tabs**: Navegación en la parte inferior de la pantalla con pestañas.
+- **Top Tabs**: Pestañas superiores para cambiar entre secciones.
+- **MaterialTabs**: Navegación moderna con estilo Material Design.
+- **Top Scrollable Tabs**: Pestañas superiores desplazables para manejar múltiples secciones.
+- **Paso de Argumentos entre Pantallas**: Envío y recepción de datos al cambiar de pantalla.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Tecnologías Utilizadas 🧠
+- **React Native**: Framework para construir aplicaciones móviles nativas.
+- **React Navigation**: Librería para manejar la navegación de forma flexible.
+- **TypeScript**: Tipado estático para mejorar la mantenibilidad del código.
+- **React Native Gesture Handler y Reanimated**: Dependencias para una navegación fluida.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+## Configuración del Proyecto ⚒️
+>[!NOTE]
+>Asegúrate de tener Node.js, npm o yarn, y un entorno configurado para React Native CLI.
 
-```bash
-# using npm
-npm start
+1. Clona este repositorio en tu máquina local.
+   ```bash
+   git clone https://github.com/IgnaG-Dev/NavigationApp
+   ```
 
-# OR using Yarn
-yarn start
-```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd NavigationApp
+   ```
 
-## Step 2: Start your Application
+3. Instala las dependencias necesarias:
+   ```bash
+   npm install
+   ```
+   o
+   ```bash
+   yarn install
+   ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+4. Ejecuta la aplicación en un emulador o dispositivo físico:
+   - Para Android:
+     ```bash
+     npx react-native run-android
+     ```
+   - Para iOS:
+     ```bash
+     npx react-native run-ios
+     ```
 
-### For Android
+## Contribución 📢
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar esta aplicación, abre un issue o envía una pull request con tus propuestas.
 
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Contacto 👤
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
